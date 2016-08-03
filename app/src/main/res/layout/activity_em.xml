@@ -7,23 +7,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/text_activity_yi" />
+        android:layout_gravity="center_horizontal"
+        android:text="@string/text_activity_em" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="@string/text_go_to_activity_em"
-        android:id="@+id/btnToEm" />
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/text_go_to_activity_yi"
+        android:id="@+id/btnToYi" />
 
     <TextView
-        android:id="@+id/textMsgFromEm"
+        android:id="@+id/textMsgFromYi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/activity_horizontal_margin" />
+        android:text="@string/text_activity_em" />
 
 </LinearLayout>

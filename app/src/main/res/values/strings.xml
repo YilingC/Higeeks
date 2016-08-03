@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Higeeks</string>
     <string name="action_settings">Settings</string>
+    <string name="text_go_to_activity_em">Go to Activity Em</string>
+    <string name="text_go_to_activity_yi">Go to Activity Yi</string>
+    <string name="text_activity_em">Hi, I\'m Em.</string>
+    <string name="text_activity_yi">Hi, I\'m Yi.</string>
+    <string name="title_activity_activity_em">ActivityEm</string>
 </resources>
