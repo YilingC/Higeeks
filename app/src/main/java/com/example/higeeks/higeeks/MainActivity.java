@@ -32,6 +32,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
             case R.id.btnToEm:
                 Intent intent = new Intent(this, ActivityEm.class);
                 intent.putExtra(EXTRA_MESSAGE, message);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 break;
             default:
@@ -43,5 +44,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         btnToEm = (Button) findViewById(R.id.btnToEm);
         textMsgFromEm = (TextView) findViewById(R.id.textMsgFromEm);
+        btnToEm.setOnClickListener(this);
     }
 }

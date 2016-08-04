@@ -33,9 +33,10 @@ public class ActivityEm extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.btnToEm:
+            case R.id.btnToYi:
                 Intent intent = new Intent(this, MainActivity.class);
                 intent.putExtra(EXTRA_MESSAGE, message);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 break;
             default:
@@ -47,6 +48,7 @@ public class ActivityEm extends Activity implements View.OnClickListener {
 
         btnToYi = (Button) findViewById(R.id.btnToYi);
         textMsgFromYi = (TextView) findViewById(R.id.textMsgFromYi);
+        btnToYi.setOnClickListener(this);
     }
 
 }
