@@ -21,7 +21,12 @@
         <activity
             android:name=".ActivityEm"
             android:label="@string/title_activity_activity_em"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.higeeks.higeeks.action.ActivityEm" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -6,4 +6,5 @@
     <string name="text_activity_em">Hi, I\'m Em.</string>
     <string name="text_activity_yi">Hi, I\'m Yi.</string>
     <string name="title_activity_activity_em">ActivityEm</string>
+    <string name="text_notify">Push Notification</string>
 </resources>
